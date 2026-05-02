@@ -1,0 +1,20 @@
+{
+  "name": "market-dashboard",
+  "version": "1.0.0",
+  "description": "Professional trading dashboard — Netlify serverless",
+  "private": true,
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "axios": "^1.7.2",
+    "yahoo-finance2": "^2.11.3"
+  },
+  "devDependencies": {
+    "netlify-cli": "^17.0.0"
+  },
+  "scripts": {
+    "dev": "netlify dev",
+    "build": "echo 'No build step required for static site'"
+  }
+}
